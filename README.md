@@ -8,9 +8,11 @@ Catálogo de películas enriquecido a partir del dataset MovieLens: análisis co
 
 ## Reparto de funciones
 
-| Persona | Rol | Notebook / tarea |
-|---|---|---|
-| <nombre> | <rol> | <notebook> |
+| Persona | Rol | Notebook / tarea                                                                  |
+|---------|-----|-----------------------------------------------------------------------------------|
+| Javier  |  A  | 01_ingesta_limpieza, repositorio y ramas, README, PR final desde "develop" a main |
+| Lorena  |  B  | 02_analisis (3, 4 y 5), calidad de datos y prueba de reproducibilidad             |
+| Judith  |  c  | 03_tmbd y 04_gemini, APIs e IA Generativa                                         |
 
 ## Instalación
 
@@ -41,4 +43,7 @@ Ejecutad los notebooks **en este orden** (cada uno genera un CSV en `data/proces
 
 ## Resultados principales
 
-<3–5 frases con lo más interesante que habéis encontrado>
+- Existen 8742 películas, 100836 valoraciones de 610 usuarios y 3683 tags.
+- 13 películas carecen de año en el título y 18 tampoco tiene valoración.
+- 306 películas son simultáneamente de ficción y aventuras.
+- La tag más repetida ha sido "In Netflix queue"
