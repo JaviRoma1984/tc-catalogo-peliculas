@@ -66,4 +66,6 @@ Abre la **carpeta del repositorio** en VS Code (los notebooks leen `data/` con r
 - Existen 9742 películas, 100836 valoraciones de 610 usuarios y 3683 tags.
 - 13 películas carecen de año en el título y 18 no tienen ninguna valoración.
 - 306 películas son simultáneamente de ciencia ficción y de aventuras.
-- La tag más repetida ha sido "In Netflix queue"
+- La tag más repetida ha sido "In Netflix queue".
+- Los usuarios con más valoraciones (la mitad superior) valoran unas 7,6 veces más películas que el resto (292 frente a 38), pero puntúan casi igual: 3,61 frente a 3,71 de nota media.
+- Con la API de TMDB se añadieron sinopsis y web oficial a las 10 primeras películas (todas tienen sinopsis, pero 6 no tienen web oficial) y con Gemini se generó para cada una un resumen en español de 2 frases.
